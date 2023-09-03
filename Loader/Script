@@ -1,0 +1,6 @@
+Main = "raw.githubusercontent.com/AXCScript/EvoHub/main/Script/Main.lua"
+if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then
+loadstring(game:HttpGet('https://'..Main))()
+else
+print("[Message] Game Not Found Script")
+end
